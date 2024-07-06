@@ -22,7 +22,7 @@ function checkuser() {
             document.getElementById('message2').innerHTML = `<p class="text-center text-success">Success</p>`
             var m = user[i].name
             localStorage.setItem('username', m)
-            location.href = '../home/index2.html'
+            location.href = '../../home/index2.html'
             break
         }
         else if(signEmail.value != user[i].email || signPassword.value != user[i].password)
